@@ -6,5 +6,8 @@ class App < Sinatra::Base
   get '/hello' do
     erb :hello
   end
+  get '/goodybe' do
+    erb :goodybe
+  end
 
 end
