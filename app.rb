@@ -9,5 +9,8 @@ class App < Sinatra::Base
   get '/goodybe' do
     erb :goodybe
   end
+  get '/date' do
+    erb :date
+  end
 
 end
